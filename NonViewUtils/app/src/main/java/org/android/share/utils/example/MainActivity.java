@@ -1,10 +1,10 @@
 package org.android.share.utils.example;
 
-import org.android.share.utils.activity.QuickBaseActivity;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import org.android.share.utils.activity.QuickBaseActivity;
 
 
 /**
@@ -24,9 +24,6 @@ public class MainActivity extends QuickBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //测试
-
-
         setContentView(R.layout.activity_main);
     }
 
