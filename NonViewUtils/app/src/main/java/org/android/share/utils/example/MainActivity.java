@@ -24,6 +24,7 @@ public class MainActivity extends QuickBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //测试
         setContentView(R.layout.activity_main);
     }
 
